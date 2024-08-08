@@ -39,14 +39,14 @@ body {
     cursor: pointer;
 }
 
-h2.classeh2 {
-    color: rgb(55, 0, 95);
+h2.titulo {
+    color: rgb(75, 0, 129);
     font-size: 38px;
     text-align: center;
 }
 
-h2.classeh2 span {
-    color: #d14900
+h2.titulo span {
+    color: #ec5200
 }
 
 /*Cabecalho*/
@@ -131,7 +131,7 @@ h1 .parte2 {
 
 .toposite .imgtopo img {
     position: relative;
-    animation: flutuar 1s ease-in-out infinite alternate;
+    animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar {
@@ -140,37 +140,50 @@ h1 .parte2 {
     }
 
     100% {
-        top: 30px;
+        top: 35px;
     }
 }
 
 /*ESTILO NOSSOS SERVIÇOS*/
-section.especialidades {
+section.especialidades{
     padding: 40px 4%;
+    margin-top: 60px;
 }
 
-section.especialidades .flex {
+section .especialidades .flex{
     gap: 60px;
 }
 
-.especialidades .especial-box svg {
-    width: 120px;
-    height: auto;
+.especialidades .especialidades-box{
+    color:rgb(22, 8, 35);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px 25px;
+    margin-top: 50px;
+    background-color: rgb(255, 219, 178);
 }
 
-.especialidades .especial-box h3 {
-    font-size: 28px;
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 15px rgba(116, 66, 0, 0.527);
+    transition: .4s;
+}
+
+.especialidades .especialidades-box img{
+    width: 80px;
+    display: block;
+    margin: auto;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 26px;
     margin: 15px 0;
-}
-
-.especialidades .especial-box {
-    margin-top: 45px;
-}
-
-.especialidades .especial-box h3{
     text-align: center;
 }
 
-.especialidades .especial-box p{
+
+.especialidades .especialidades-box p{
+    font-size: 16px;
     text-align: justify;
 }
+

@@ -89,6 +89,7 @@ header nav ul li {
 .r-contato button:hover {
     box-shadow: 1px 1px 8px #d67200;
     transition: .2s;
+    transform: scale(1.05);
 }
 
 /*TOPO DO SITE*/
